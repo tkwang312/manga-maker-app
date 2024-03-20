@@ -3,7 +3,7 @@ import { Flex, Box, Heading, Text, Button, Spacer, HStack } from "@chakra-ui/rea
 const Navbar = () => {
   return (
     <Flex as="nav" p="10px">
-        <Heading as="h1">Tasks</Heading>
+        <Heading as="h1">Projects</Heading>
         <Spacer />
         <HStack spacing="20px">
             <Box bg="gray.200" p="10px">A</Box>

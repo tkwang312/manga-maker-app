@@ -1,4 +1,4 @@
-import { List, ListItem, ListIcon } from "@chakra-ui/react"
+import { List, ListItem, ListIcon, Divider } from "@chakra-ui/react"
 import { NavLink } from "react-router-dom"
 import { IoIosImages, IoIosCreate, IoMdContact } from "react-icons/io";
 
@@ -24,7 +24,7 @@ const Sidebar = () => {
                     Profile
                 </NavLink>
             </ListItem>
-
+            <Divider />
         </List>
     )
 }
